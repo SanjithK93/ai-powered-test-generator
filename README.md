@@ -41,15 +41,16 @@ Rather than bloating the bundle with massive libraries, the `CodeBlock` componen
 git clone [https://github.com/yourusername/test-generator.git](https://github.com/yourusername/test-generator.git)
 cd test-generator
 npm install
+```
 
-### 3. Environment Setup
+### **3. Environment Setup**
 Create a `.env` file in the root directory:
 
 ```env
 GEMINI_API_KEY=your_api_key_here
 ```
 
-### 4. Run the Application
+### **4. Run the Application**
 Open two terminals:
 
 **Terminal 1 (Backend Proxy):**
@@ -61,7 +62,8 @@ npm run server
 ```bash
 npm run dev
 ```
-🧠 Why I Built This
+
+## 🧠 Why I Built This
 As a Senior Engineering Lead, I’ve observed that "Test Debt" is often the biggest bottleneck in rapid product rollouts. This project serves as a case study in AI-augmented development, demonstrating how I use tools like Claude to rapidly build backend infrastructure and UI styling, while using Gemini to automate quality assurance. It showcases:
 
 Increasing test coverage without sacrificing feature development speed.
@@ -70,7 +72,7 @@ Maintaining architectural consistency across large teams.
 
 Leveraging AI to handle repetitive boilerplate and styling while focusing on high-level system design.
 
-🛠️ About the Author
+## 🛠️ About the Author
 Sanjith K is a Senior Engineering Lead with over 11 years of experience specializing in React.js and TypeScript. Throughout his career, including key roles at Persistent Systems and Syncfusion, he has led international teams of up to 25 members and architected frontend solutions for global platforms like QuickBooks Online.
 
 This project was inspired by the real-world challenges of managing "Test Debt" and deployment velocity in high-traffic environments. By combining his deep roots in component engineering—dating back to building complex data visualization tools from scratch—with modern AI-augmented workflows, Sanjith aims to empower engineering teams to deliver high-quality, 100% tested code at scale.
