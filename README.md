@@ -42,22 +42,25 @@ git clone [https://github.com/yourusername/test-generator.git](https://github.co
 cd test-generator
 npm install
 
-3. Environment Setup
-Create a .env file in the root directory:
+### 3. Environment Setup
+Create a `.env` file in the root directory:
 
-Code snippet
+```env
 GEMINI_API_KEY=your_api_key_here
-4. Run the Application
+```
+
+### 4. Run the Application
 Open two terminals:
 
-Terminal 1 (Backend Proxy):
-
-Bash
+**Terminal 1 (Backend Proxy):**
+```bash
 npm run server
-Terminal 2 (Frontend):
+```
 
-Bash
+**Terminal 2 (Frontend):**
+```bash
 npm run dev
+```
 🧠 Why I Built This
 As a Senior Engineering Lead, I’ve observed that "Test Debt" is often the biggest bottleneck in rapid product rollouts. This project serves as a case study in AI-augmented development, demonstrating how I use tools like Claude to rapidly build backend infrastructure and UI styling, while using Gemini to automate quality assurance. It showcases:
 
